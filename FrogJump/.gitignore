@@ -1,0 +1,31 @@
+### Archivos de IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+gen/
+
+### Archivos compilados de Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Configuraciones y cachés locales (Proporcionadas) ###
+# Default ignored files
+/shelf/[cite: 1]
+/workspace.xml[cite: 1]
+# Ignored default folder with query files
+/queries/[cite: 1]
+# Datasource local storage ignored files
+/dataSources/[cite: 1]
+/dataSources.local.xml[cite: 1]
+# Editor-based HTTP Client requests
+/httpRequests/[cite: 1]
+
+### Archivos del sistema operativo ###
+.DS_Store
+Thumbs.db
