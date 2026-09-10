@@ -22,9 +22,10 @@ class Solution {
         this.piedras = stones;
         int n = stones.length;
 
-        /*if( n<= 2 || n>= 2000) {
-            System.out.print
-        }*/
+        if( n<= 2 || n>= 2000) {
+            System.out.println("No puedes tener 2 piedras o menos ni 2000 piedras o mas");
+            return false;
+        }
 
         mapaPiedras = new HashMap<>();
         for (int i = 0; i < n; i++) {
