@@ -22,8 +22,8 @@ class Solution {
         this.piedras = stones;
         int n = stones.length;
 
-        if( n<= 2 || n>= 2000) {
-            System.out.println("No puedes tener 2 piedras o menos ni 2000 piedras o mas");
+        if( n< 2 || n> 2000) {
+            System.out.println("No puedes tener menos de 2 piedras ni mas de 2000 piedras");
             return false;
         }
 
@@ -34,7 +34,7 @@ class Solution {
 
         memo = new Boolean[n][n+1];
 
-        return saltoRecursivo(0, 1); // primer salto es 1
+        return saltoRecursivo(0, 0); // primer salto es 1
     }
 
     private boolean saltoRecursivo(int indiceActual, int saltoAnteriorK) {
